@@ -21,7 +21,7 @@ import pages.ProcessPage;
 import pages.ProductsPage;
 import pages.WebOrdersPage;
 
-public class LoginPageTest {
+public class WebOrdersTest {
 
 	WebDriver driver;
 	LoginPage loginPage;
@@ -99,10 +99,8 @@ public class LoginPageTest {
 				assertEquals(productsData[1], "$20");
 				assertEquals(productsData[2], "10%");
 				break;
-
 			}
 		}
-
 	}
 
 	// HOMEWORK for  PROCESSPAGE
